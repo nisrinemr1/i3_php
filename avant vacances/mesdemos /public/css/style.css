@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "MateSC";
+    src: url("../font/MateSC-Regular.ttf");
+    /* j'ai déclarer le font histoire de pouvoir l'utiliser étant donné qu'il n'est pas dans le vscode */
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("../font/Quicksand-VariableFont_wght.ttf");
+    /* j'ai déclarer le font histoire de pouvoir l'utiliser étant donné qu'il n'est pas dans le vscode */
+}
+
+@font-face {
+    font-family: "Hero";
+    src: url("../font/Hero-Light.otf");
+}
+
+html{
+    /* size conseillée pour tout site de préférence et de toute façon c'est la size de base dans les nav web */
+    font-family: "Hero";
+    font-size: 15px;
+    width:100%; 
+    height: 100vh;
+    color: rgb(32, 33, 36);
+    margin: 0;
+    padding: 0;
+    box-shadow: inset 2000px 0 0 0 rgba(176, 176, 176, 0.576);
+    background-image: url("../images/minim.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* les 4 couleurs 
+#ff8066 orange
+#950001 rouge
+#ede9d0 blanc cassé
+#3a001e bordeaux
+background-color:rgb(32, 33, 36); fond google
+*/
+
+body{
+    font-size: 20px;
+}
+
+
+footer{
+    /* pour que la photo reste en largeur ! */
+    width: 100%;
+    text-align: center;
+}
+
+
+.txtHome{
+    width: 30%;
+    text-align: center;
+    border: 5px double black;
+    margin: auto;
+    padding: 0;
+    margin-top:350px;
+}
+
+a#seleccours {
+    float: right;
+    margin-top: 300px;
+    background-color: rgba(0, 0, 0, 0.83);
+    color: blanchedalmond;
+}
+/* 
+a#seleccours:hover{
+
+} */
+
+.barreRecherche{
+    float: left;
+    width:15%;
+    margin-top: 70px;
+}
+
+div.bodyy{
+    width: 100%;
+    height: 500px;
+    padding-bottom: 90px;
+    
+}
+
+section.aside {
+    box-sizing: border-box;
+    color: #050505;
+    float: left;
+    width: 15%;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* margin-bottom: 100px; */
+    /* padding-top: 50px; */
+    border:1px dotted rgb(9, 9, 9);
+}
+
+section.articles{
+/* coller la section avec la class car la section porte l'article */
+width: 80%;
+/* il va jamais rentrer dans l'aside! */
+float: right;
+
+}
+
+section article{
+    width:20%;
+    
+    box-sizing: border-box;
+    float:left;
+    border: 10px double rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+    /* padding-bottom: 50px; */
+    font-family: "MateSC";
+    font-size: large;
+
+}
+
+section article div{
+    width: 100%;
+    text-align: center;
+}
+
+section article h2, a {
+    color:#000000;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer {
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "MateSC";
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+
+@media (min-width:0px) and (max-width:576px)
+{
+   
+}
+
+@media (min-width:577px) and (max-width:768px)
+{
+
+}
+
+@media (min-width:769px) and (max-width:992px)
+{
+
+}
+
+@media (min-width:992px) and (max-width:1200px)
+{
+
+}
+@media (min-width:1201px) and (max-width:1400px)
+{
+
+}
+
+@media (min-width:1401px) and (max-width:1700px)
+{
+  
+}

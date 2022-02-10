@@ -1,0 +1,334 @@
+#menunom
+{
+    color: rgb(110, 9, 9);
+    float:left;
+    padding-left: -50px;
+    
+}
+
+#selecAcceuil, #selecHangeul, #selecSatoori, #selecQuiz
+{
+    color: darkblue;
+    background-color:tomato;
+}
+
+body
+{
+    background-color: #fafafa;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0'%3E%3Cstop offset='0' stop-color='%236d68ff'/%3E%3Cstop offset='1' stop-color='%23ff5959'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff6274'/%3E%3Cstop offset='1' stop-color='%237371ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='2'%3E%3Cpath transform='translate(0 0)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='4' transform='rotate(0 800 450)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(0 0)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='4'%3E%3Cpath transform='translate(0 0)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='8' transform='rotate(0 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='rotate(0 1400 132)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+#menu{
+    float: right;
+    padding-bottom: -10px;
+    
+}
+
+
+
+img#imglogo
+{
+    width:168px;
+    height:90px;
+    float:left;
+    padding-bottom: 0px;
+    
+
+}
+/* pris d'un forem */
+
+
+
+img#roiSejong
+{
+    width:230px;
+    height: 300px;
+    float: left;
+    padding-top: 50px;
+}
+
+#oldHan
+{
+    width:300px;
+    height: 300px;
+    float: right;
+    padding-top: 150px;
+    padding-left: 10px;
+}
+
+#accueilPic
+{
+    
+    float: right;
+    padding-top: -50px;
+    margin-bottom: -200px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+p,h1,h2,h3,img,ul
+{
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+li.pucettes
+{
+    color:rgb(146, 9, 9);  
+}
+
+#titreAccueil{
+    /* vh = hauteur visuel
+    vw= largeur visuel */
+    float : left;
+    padding-bottom: 0px;
+    color: rgb(146, 9, 9);
+    padding-top: 0px;
+}
+
+
+#titreIntro
+{
+    width: calc(100vw - 500px);
+    /* vh = hauteur visuel
+    vw= largeur visuel */
+    float : left;
+    padding-top: 0px;
+    padding-right:0px;
+    
+}
+
+#intro{
+    width: calc(100vw - 500px);
+    padding-right:0px;
+    /* vh = hauteur visuel
+    vw= largeur visuel */
+    float : left;
+    padding-bottom: 50px;
+    padding-top: 0px;
+      
+}
+
+h3 {
+    color:darkblue;
+    
+}
+
+p#textSejong
+{
+    width: calc(100vw - 500px);
+    /* vh = hauteur visuel
+    vw= largeur visuel */
+    float : right;
+}
+
+#titreSejong
+{
+    width: calc(100vw - 500px);
+    /* vh = hauteur visuel
+    vw= largeur visuel */
+    float : right;
+}
+
+
+p#textHangeul
+{
+    width: calc(100vw - 500px);
+    /* vh = hauteur visuel
+    vw= largeur visuel */
+    float : left;
+}
+
+#titreHangeul
+{
+    width: calc(100vw - 500px);
+    /* vh = hauteur visuel
+    vw= largeur visuel */
+    float : left;
+    padding-top: 100px;
+}
+
+
+.stopfloat{
+    clear: both;
+}
+/*  TODO mettre des clears float sur footer aussi  */
+
+#copyright {
+
+    margin-top: 4rem;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: mediumpurple;
+}
+/* mettre les photos en même hauteur et etc */
+
+.imgLettre
+{
+    width: 320px;
+    height: 155px;
+}
+
+
+.krabinabi 
+{
+    float: right;
+    padding-top: -100px;
+    margin-bottom: -200px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#titreLangue
+{
+    float: left; 
+padding-bottom: -50px;
+padding-top: 50px;
+}
+
+#alphabetCoreen, .puceVoyelleConsonne
+{
+    width: calc(100vw - 500px);
+    padding-top: 10px;
+}
+
+#voyelle, #lettreVoyelles
+{
+    float: right;
+    padding-top: -10px;
+    padding-right: 150px;
+    
+}
+#lettreConsonnes, #consonnes
+{
+    float: left;
+    padding-top: 0px;
+    padding-right: 50px;
+}
+
+#prononcTxt, #titlePrononc
+{
+    width: calc(100vw - 300px);
+}
+
+#titlePrononc
+{
+    padding-top: 50px;
+}
+
+#styleConvoTxt, #titleStyleConvo
+{
+    width: calc(100vw - 400px);
+}
+
+.puceStyleConvo
+{
+    width: calc(100vw - 400px);
+}
+
+#formel
+{
+    color:darkred;
+}
+#poli
+{
+    color: darkslateblue;
+}
+#courant
+{
+    color: rgb(156, 78, 156);
+}
+#neutre
+{
+    color: mediumslateblue;
+}
+
+#krabiChoquee
+{
+    float: right;
+    padding-top: 0px;
+    margin-top: -100px;
+    padding-right: 0px;
+}
+
+#titleSatoori, #txtSatoori
+{
+    width: calc(100vw - 500px);
+    float: left;
+}
+
+#krabibusan
+{
+    float: right;
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    margin-top: -100px;
+}
+
+#titleSatoori
+{
+    padding-top: 50px;
+    font-size: 30px;
+}
+#txtSatoori
+{
+    padding-bottom: 50px;
+}
+
+#titleRegion
+{
+    float: left;
+    width: calc(100vw - 500px);
+    margin-top: -300px;
+}
+
+#txtRegion 
+{
+    float: left;
+    width: calc(100vw - 500px);
+    padding-bottom: 100px;
+    padding-right:100 px;
+    margin-top: -200px;
+    
+}
+
+#region
+{
+    width: 320px;
+    height: 370px;
+    float: right;
+    padding-bottom: 500px;
+    padding-top: 50px;
+}
+
+#puceRegion
+{
+    width: calc(100vw - 500px);
+    float: left;
+    margin-top: -950px;
+    margin-bottom: 10px;
+    
+}
+
+li.pucettes
+{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+#krabiFighting
+{
+    float: right;
+    margin-right: 200px ;
+}
+
+

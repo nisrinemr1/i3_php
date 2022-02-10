@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Lazy";
+    src: url(../font/LazySunday-Regular.ttf);
+}
+@font-face {
+    font-family: "Hero";
+    src: url(../font/Hero-Light.otf);
+}
+
+.hero{
+    font-family: "Hero";
+}
+
+.lazy{
+    font-family: "Lazy";
+}
+
+.logo{
+    font-size: x-large;
+}
+
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.cc-navbar .nav-link:hover{
+    padding-bottom: 1px;
+    border-bottom-color: rgb(238, 198, 130);
+    font-size: medium;
+}
+
+.welcome{
+    color: antiquewhite;
+}
+
+body{
+    background-color: var(--bs-body-color);
+    color:snow;
+}
+
+.banner-accueil{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../img/peanut_bckg.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 500px;
+   
+}
+
+
+img.peanut_log{
+    width: 50%;
+    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+}
+
+.banner-login{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../img/bowl-of-peanut-butter-and-peanuts-WE5M7LP.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 500px;
+   
+}
+
+.banner-404{
+
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../img/dead_peanut_by_dragonjsp_d5mk58e-fullview.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#carouselExampleControls{
+    margin: auto;
+    width: 50%;
+}

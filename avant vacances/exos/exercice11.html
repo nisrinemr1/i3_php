@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balle de tennis</title>
+</head>
+<body>
+    <h1>Exos2 Le tennis</h1>
+    <form action="exercice11.php" method="post">   
+        <p>Prêt ?</p>
+        <input type="radio" name="pret" id="pretOui" value="true">
+        <label for="pretOui">Oui</label>
+        <!-- Le label doit avoir le même nom que l'id!!!! -->
+        <!-- Avec tout ça y a juste le petit oui. Pas le non. -->
+        <input type="radio" name="pret" id="pretNon" value="false">
+        <label for="pretNon">Non</label>
+        <br>
+
+
+        <p>Le pannier est vide ?</p>
+        <input type="radio" name="panierVide" id="panierOui" value="true">
+        <label for="panierOui">Oui</label>
+        <input type="radio" name="panierVide" id="panierFalse" value="false">
+        <label for="pretFalse">Non</label>
+        <br>
+        <input type="submit" value="Tester">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo2 formulaire</title>
+</head>
+<body>
+    <h1>Bonjour petit panda, veux-tu bien me dire quel est ton petit prénom et nom de famille?🤪</h1>
+    <form action="chap1exo2.php" method="POST">
+        <!-- Attention à bien mettre la methode dans le form après l'action sinon php ne va pas le récupérer étant donné que si on le laisse vide, il enregristra en mode GET qui est dangereux! -->
+        <label for="nom">Prénom: </label>
+        <input type="text" name="nom" id="nom">
+        <br>
+        <label for="prenom">Nom de famille: </label>
+        <input type="text" name="prenom" id="prenom">
+        <br>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Vider le formulaire">
+    </form>
+</body>
+</html>
