@@ -1,0 +1,20 @@
+Algorithme nomAlgo
+DEBUT
+    Variable a,b,c,d,e: Entier
+    a <- 8 % 3
+    Affichercalcul a 
+    b <- 4 + a 
+    Affichercalcul b 
+    c <- b * a 
+    Affichercalcul c
+    d <- (c-a)*b
+    Affichercalcul d 
+    e <- ((a+7)*(d/a))*0
+    Affichercalcul ecrire
+
+/*a = 2
+b = 6 
+c = 12
+d = 60 
+e = 0*/
+FIN

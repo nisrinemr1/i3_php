@@ -1,0 +1,15 @@
+Algorithme nomAlgo
+DEBUT
+        Variable choix: BOOLEEN
+        Variable stockCoca, stockEau: Entier
+        stockCoca <- 0
+        stockEau <- 2
+   ecrire("Choisissez votre boisson: 1=coca, 2=eau")
+    lire(choix)
+    SELONQUE choix VAUT
+        1 : SI stockCoca > 0 ecrire("Voici votre Coca") SINON ecrire("Il n'y a plus de Coca")
+        2 : SI stockEau >0 ecrire("Voici votre eau") SINON ecrire("Il n'y a plus d'Eau")
+        SINON : ecrire("Choix inconnu")
+    FINSQ
+    
+FIN

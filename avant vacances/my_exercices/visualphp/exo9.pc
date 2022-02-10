@@ -1,0 +1,11 @@
+Algorithme nomAlgo
+DEBUT
+    Variable age: Reel
+    SI age >=18 ALORS
+        "Bienvenue"
+        SINON
+            "Accès interdit"
+        
+    FINSI
+    
+FIN

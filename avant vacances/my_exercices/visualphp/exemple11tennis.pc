@@ -1,0 +1,43 @@
+/*Algorithme nomAlgo
+DEBUT
+    Variable panierVide: CHAINE
+    Variable pret: CHAINE
+    ecrire("êtes-vous prêt?")
+    Lire pret
+    ecrire("le pannier est-il vide?")
+    Lire paniervide
+    SI pret == "true" ALORS     
+        ecrire("Laner la balle.") 
+    SINON
+        ecrire("Ne pas lancer la balle.")
+        ecrire("Vous n'êtes pas prêt.")
+    FINSI
+    SI pannier == "true" ALORS     
+        ecrire("Car le pannier est vide")  
+    SINON
+        ecrire("Le pannier est rempli.")
+    FINSI
+    
+FIN*/
+Algorithme nomAlgo
+DEBUT
+   Variable pret: CHAINE
+   Variable panierVide: CHAINE
+    ecrire("Etes-vous prêt?")
+    Lire (pret)
+    erire("Le pannier est-il vide?")
+    Lire(panierVide)
+SI pret=="true"&&panierVide=="false" ALORS
+    ecrire("Lancer la balle")
+    SINON
+    ecrire("ne pas lancer la balle")
+    SI panierVide=="true" ALORS
+    ecrire("Car le pannier est vide")
+    FINSI
+    SI pret=="false" ALORS
+    ecrire("Car vous n'êtes pas prêt.")
+    FINSI
+FINSI
+
+
+FIN

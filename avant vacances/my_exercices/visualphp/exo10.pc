@@ -1,0 +1,9 @@
+Algorithme nomAlgo
+DEBUT
+Variable annee: Reel
+SI annee%4==0 && annee%100!=0 || annee%400==0 ALORS
+    annee bissextiles
+SINON
+    pas annee bissextiles
+FINSI
+FIN

@@ -1,0 +1,19 @@
+Algorithme nomAlgo
+DEBUT
+   Variable nb1: Chaine
+   nb1 <- "5"
+   Variable nb2: Chaine
+   nb2 <- "7"
+   Variable temp: Chaine
+   ecrire("Avant nb1")
+   ecrire(nb1)
+   ecrire(" nb2=")
+   ecrire(nb2)
+   temps <- nb1
+   nb1 <- nb2
+   nb2 <- temp
+   ecrire("Après nb1=")
+   ecrire(nb1)
+   ecrire(" nb2=")
+   ecrire(nb2)
+FIN

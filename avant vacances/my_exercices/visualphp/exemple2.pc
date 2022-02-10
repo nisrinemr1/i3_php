@@ -1,0 +1,6 @@
+Algorithme nomAlgo
+DEBUT
+    Variable message: Chaine
+    message <- "Bienvenue"
+    ecrire(Bienvenue)
+FIN

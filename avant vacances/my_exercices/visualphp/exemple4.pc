@@ -1,0 +1,21 @@
+Algorithme nomAlgo
+DEBUT
+Variable nom, prenom : Chaine
+    Affcher("Bienvenue! Entrez votre nom et prénom:")
+    Lire nom
+    Lire prenom 
+    Afficher ("Bienvenue ")
+    Afficher nom
+    Afficher prenom
+    //ecrire ("Bienvenue"&prenom&" "&nom)
+    FIN
+    //Algorithme exo04
+/*Algorithme exo04
+DEBUT
+Variable nom, prenom : Chaine
+Ecrire("entrez votre nom")
+Lire(nom)
+Ecrire("Entrez votre prenom")
+Lire(prenom)
+Ecrire("Bienvenue "&prenom &" "&nom)
+FIN*/

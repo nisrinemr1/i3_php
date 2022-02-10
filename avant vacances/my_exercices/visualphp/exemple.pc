@@ -1,0 +1,47 @@
+Algorithme Exo01  
+DEBUT
+    Variable age: Entier
+    age <- 32
+    Variable mois: Entier
+    mois <- 12
+    Variable heurecoreen: Entier
+    heurecoreen <- 8
+    Variable montant: Entier 
+    montant <- 2990
+    Variable stock: Entier
+    stock <- 100
+    
+    Variable degre: Reel
+    degre <- 12.5
+    Variable demiCm: Reel
+    demiCm <- 0.5
+    Variable Pi: Reel
+    Pi <- 3.14
+    Variable miliemeseconde: Reel
+    miliemeseconde <- 0.001
+    Variable pointreponsejuste: Reel 
+    pointreponsejuste <- 2.25
+
+    Variable Maroc: Chaine
+    Maroc <- "Rabat"
+    Variable Belgique: Chaine
+    Belgique <- "Bruxelles"
+    Variable France: Chaine
+    France <- "Paris"
+    Variable Algérie: Chaine 
+    Algerie <- "Algé"
+    Variable Japon: Chaine 
+    Japon <- "Tokyo"
+
+    Variable Tteokboki: Booleen 
+    Tteokboki <- true
+    Variable Sushi: Booleen 
+    Sushi <- false
+    Variable Maki: Booleen
+    Maki <- false
+    Variable Kimchi: Booleen 
+    Kimchi <- true
+    Variable Kimbap: Booleen
+    Kimbap <- true
+
+FIN
